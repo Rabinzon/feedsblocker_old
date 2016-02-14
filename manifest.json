@@ -1,0 +1,27 @@
+ {
+  "manifest_version": 2,
+  "name": "Feed Blocker",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [ "*://*/*" ],
+      "js": [ "content.js" ]
+    }
+  ],
+  "icons": {
+    "128": "teeth1.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs",
+    "https://www.youtube.com/*"
+  ],
+
+      "browser_action": {
+        "default_title": "LostTime",
+                "default_popup": "popup.html"
+    }
+	
+}
