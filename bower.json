@@ -1,0 +1,21 @@
+{
+  "name": "feedsblocker",
+  "homepage": "https://github.com/Rabinzon/feedsblocker",
+  "authors": [
+    "ildargilfanov <ildar.gilfanov@csssr.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "^4.8.2"
+  }
+}
